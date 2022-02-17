@@ -4,5 +4,4 @@ An expense application that keeps track of the expenditure spent for the year. (
 
 # Used on this project
 
-1. Redux, react-redux
-2. React hooks (no class based React Components)
+1. React hooks (no class based React Components)

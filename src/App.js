@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import './App.css';
 
 // Components
@@ -9,10 +9,15 @@ import ExpenseForm from './components/expense-form/expense-form.component';
 function App() {
 
   const [expenses, setExpenses] = useState([]);
+  // Event Handlers
+  const addExpenseItem = expenseItem => {
+    setExpenses([...expenses, expenseItem]);
+  }
+
 
   return (
     <div className="App">
-      <ExpenseForm />
+      <ExpenseForm addExpenseItem={addExpenseItem}/>
       <ExpenseList expenses={expenses} />
     </div>
   );
