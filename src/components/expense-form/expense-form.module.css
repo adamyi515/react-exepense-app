@@ -1,0 +1,23 @@
+.expense-form {
+  background-color: rgb(85, 134, 250);
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 30px;
+}
+
+.expense-form__group {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  height: 50px;
+}
+
+.expense-form__group label {
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+
+.expense-form__group input {
+  padding: 7px;
+}

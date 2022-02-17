@@ -18,8 +18,6 @@ const ExpenseList = () => {
             </div>
             <div className={styles['expense-list__container']}>
                 <ExpenseItem />
-                <ExpenseItem />
-                <ExpenseItem />
             </div>
         </div>
     )
