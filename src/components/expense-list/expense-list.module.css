@@ -1,0 +1,17 @@
+.expense-list {
+  padding: 40px;
+  background-color: rgba(20, 20, 20, 1);
+  color: #fff;
+  border-radius: 10px;
+}
+
+.expense-list__filter {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.expense-list__filter-selector {
+  padding: 10px 40px;
+  border-radius: 10px;
+}
